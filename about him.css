@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagee.jpg.jpeg);
+    background-size: 1500px 890px;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: -30px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar label{
+    font-size: 40px;
+    color: rgb(102, 2, 2);
+}
+   
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px 30px;
+}
+.navbar ul li a{
+    text-decoration: rgb(50, 50, 52);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: 20px;
+    top: 90px;
+}
+
+.how{
+    font-size: 50px;
+    color: rgb(91, 54, 11);
+    line-height: 500px;
+    float: left;
+    margin: 40px; 
+}
+.how1 p{
+    float: left;
+    margin-left: -30%;
+    margin-top: 350px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: rgb(43, 0, 48);
+    font-weight: 400;
+
+
+}
+.how2{
+    float: left;
+    margin-bottom: auto;
+}
+
+.navbar{
+    width: 95%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar label{
+    font-size: 40px;
+    color: rgb(253, 253, 253);
+}
+   
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px 5px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(25, 24, 24);
+    font-size: 15px;
+}
+
+
+#life{
+    padding: 70px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    background-color: rgb(167, 138, 64);
+}
+.you1 h3{
+    text-decoration: underline;
+    color: rgb(30, 40, 44);
+}
+.title {
+    content: '';
+    ;
+    height: 5px;
+    width: 250px;
+    margin-left: 550px;
+    margin-right: 550px;
+    display: flex;
+    border-radius: 5px;
+    transform: translateY(-30px);
+    text-align: center;
+    align-items: center;
+}
+#marriage{
+    padding: 70px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    background-color: rgb(192, 150, 46);
+    text-align: center;
+}
+#Philanthrophy{
+    padding: 70px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    background-color: rgb(225, 180, 65);
+    text-align: center;
+}
+#LateryearsAndDeath{
+    padding: 70px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    background-color: rgb(125, 97, 24);
+    text-align: center;
+}
+footer{
+    position: absolute;
+    margin-top: 120px;
+    height: 20vh;
+    color: rgb(250, 140, 6);
+    background:#10454e;
+    width: 100%;
+    background-color: rgb(251, 239, 13);
+    padding: 40px;
+}
+
+
+.logopart img{
+    height:7vh;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+.logopart h1{
+    color:rgb(1, 65, 58);
+font-size: 25px;
+margin-top: 40px;
+margin-left: 120px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(218, 232, 23);
+    padding: 40px;
+}
+.copyright{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+   
+}
+.socials i{
+    font-size: 27px;
+    margin-top: 30px;
+    padding: 0px 4px;
+    color: teal;
+}

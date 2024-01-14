@@ -1,0 +1,125 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: sans-serif;
+
+}
+
+body {
+ background: url(w3.jpeg);
+ background-size: cover;
+ 
+ justify-content: center;
+ display: flex;
+ font-family: sans-serif;
+ width: 100%;
+ height: 100%;
+}
+.box{
+    position: relative;
+    width: 450px;
+    height: 500px;
+    background: #edd8d8;
+    border-radius: 10px; 
+    overflow: hidden;
+    margin-left: -500px;
+    margin-top: 60px;
+    margin-top: 100px;
+    margin-left: -400px;
+}
+.label {
+  padding: 15px 120px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ef5454d0;
+}
+
+.form{
+    position: absolute;
+    inset: 2px;
+    border-radius: 8px;
+    background: rgb(101, 130, 141);
+    z-index: 10;
+    
+    
+}
+.inputbox{
+  font-size: 20px;
+  padding: 15px;
+ color: beige;
+}
+.form {
+  padding: 20px 40px;
+}
+.form .font {
+  font-size: 18px;
+  color: #f6f2f266;
+  margin: 5px 0;
+}
+.form input {
+  border-radius: 25px;
+  height: 40px;
+  width: 350px;
+  padding: 0 5px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid rgb(169, 188, 76);
+}
+.form button {
+  margin: 45px 0 30px 0;
+  height: 45px;
+  width: 365px;
+  font-size: 20px;
+  color: rgba(56, 91, 231, 0.801);
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.589);
+  border-radius: 30px;
+  border: 1px solid #00000017;
+  transition: cubic-bezier(0.86, 0, 0.07, 1);
+}
+.form button:hover {
+  background: #0000002f;
+}
+.form #email_error,
+.form #pass_error {
+  margin-top: 5px;
+  width: 345px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  background: rgba(243, 0, 0, 0.452);
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid red;
+  display: none;
+}
+.hf1{
+  border: 1px solid rgb(12, 10, 8);
+  background: rgb(52, 30, 3);
+  padding: 20px 30px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  margin: 100px;
+  transition: 0.8s;
+  float: left;
+  margin-left: 10%;
+  color: aqua;
+
+}
+#email_error{
+  margin-top: 5px;
+  width: 345px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  background: rgba(243, 0, 0, 0.452);
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid red;
+  display: none;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <!-----content---->
+    <div id="wrap">
+        
+     </nav>
+     <div class="container">
+        <h1 class="label">Sign in</h1>
+        <form
+          class="login_form"
+          
+          method="post"
+          name="myform"
+          onsubmit="return validated()"
+        >
+          <div class="font">Email</div>
+          <input type="email" name="emil" id="emailInput"/>
+          <div id="emailError"> please enter a valid Email id</div>
+          <div class="font font2">Enter your password</div>
+          <input type="password" name="pass" id-="passwordInput"/>
+          <div id="passwordError">Please enter atleast 8 character</div>
+
+          <div class="font font">Confirm password</div>
+          <input type="password" name="rpass" />
+          <div id="pass_error">Password didn't match</div>
+         
+        </form>
+        <button formaction="home2.html" type="submit">Sign in</button>
+      </div>
+      <script src="login1.js"></script>
+      <div class="container2">
+        <a href="comic.html">
+        <button class="hf1 btn1"> BACK</button>
+       </a>
+   </div> 
+</body>
+</html>

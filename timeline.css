@@ -1,0 +1,185 @@
+#main{
+    max-width: 1283px;
+    max-height: 100%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: lightblue;
+    border-radius: 5px;
+    background-color: darkgray;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(s4.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.title h1{
+    margin: 60px;
+    color: red;
+    float: left;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif; 
+    margin-left: 200px ;
+}
+h1{
+    font-size: 50px;
+    color: rgb(248, 248, 248);
+    line-height: 0px;
+    float: left;
+    margin: 80px; 
+} 
+
+
+p{
+    float: left;
+    margin-left: -50%;
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 49px;
+    color: rgba(206, 224, 133, 0.385);
+    font-weight: 400;
+
+}
+.how1 p{
+    float: left;
+    margin-left: -40%;
+    margin-top: 200px;
+    display: flex;
+    font-size: 50px;
+    color: rgb(245, 244, 244);
+    font-weight: 400;
+}
+.container2{
+    text-align: center;
+    margin-top: 400px;
+}
+.hf1{
+    border: 1px solid rgb(17, 16, 16);
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.8s;
+    float: left;
+    margin-left: -60%;
+    color: rgb(255, 255, 255);
+
+}
+button{
+    background-color: rgb(88, 107, 107);
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 20%;
+    padding: 20px 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 16px;
+}
+.btn1{
+    color: rgb(16, 200, 138);
+}
+.btn1::see timeline{
+    color: rgb(13, 13, 13);
+}
+.imgdiv img{
+    max-width: 350px;
+    margin: 50px 550px;
+    padding: 15px;
+    background-color: bisque;
+    size: 800px 700px;
+    align-items: center;
+}
+
+
+#image{
+    display: block;
+    max-width: 30px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+#info{
+    max-width: 600px;
+    margin:0 auto;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+ ul li{
+   text-align: center;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.navbar{
+    width: 95%;
+    margin: auto;
+    padding: -6px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar label{
+    font-size: 40px;
+    color: rgb(250, 214, 12);
+}
+   
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 8px 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(180, 243, 5);
+    font-size: 15px;
+}
+
+.hw2 p{
+    float: right;
+    margin-left: 5%;
+    margin-top: -580px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(140, 226, 19);
+    font-weight: 600;
+}
+.container3{
+    margin-top: 800px;
+    width: 95%;
+    background: linear-gradient(360deg,rgb(136, 167, 167),rgb(175, 225, 217));
+    height: 100vh;
+    width: 100%;
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url(elon-musk-photo.webp);
+}
+
+.al{
+    color: black;
+    margin-top: 250px;
+}
+.par{
+    font-size: 35px;
+    color: black;
+    
+    margin-left: -300px;
+}
+.zx{
+    padding: 20px;
+    background-color: brown;
+    border-radius: 19px;
+    margin-top: -100px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    #todo-container {
+      max-width: 500px;
+      margin: 20px auto;
+    }
+    
+    #todo-container input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    #todo-container ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    #todo-container ul li {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      margin-bottom: 5px;
+      background-color: #f5f5f5;
+      border-radius: 4px;
+    }
+    
+    #todo-container ul li input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    
+    #todo-container ul li span {
+      flex-grow: 1;
+      margin-right: 10px;
+    }
+    
+    #todo-container button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>To-Do List</h1>
+  <div id="todo-container">
+    <input type="text" id="todo-input" placeholder="Enter a task...">
+    <button id="add-button">Add Task</button>
+    <ul id="todo-list"></ul>
+  </div>
+
+  <script>
+    // Get the necessary DOM elements
+    const todoInput = document.getElementById('todo-input');
+    const addButton = document.getElementById('add-button');
+    const todoList = document.getElementById('todo-list');
+    
+    // Function to add a new task
+    function addTask() {
+      const taskText = todoInput.value.trim();
+      
+      if (taskText !== '') {
+        const listItem = document.createElement('li');
+        listItem.innerHTML = `
+          <input type="checkbox">
+          <span>${taskText}</span>
+          <button class="delete-button">Delete</button>
+        `;
+        
+        const deleteButton = listItem.querySelector('.delete-button');
+        deleteButton.addEventListener('click', deleteTask);
+        
+        todoList.appendChild(listItem);
+        todoInput.value = '';
+      }
+    }
+    
+    // Function to delete a task
+    function deleteTask(event) {
+      const listItem = event.target.parentElement;
+      todoList.removeChild(listItem);
+    }
+    
+    // Event listener for the add button
+    addButton.addEventListener('click', addTask);
+    
+    // Event listener for the enter key press in the input field
+    todoInput.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        addTask();
+      }
+    });
+  </script>
+</body>
+</html>

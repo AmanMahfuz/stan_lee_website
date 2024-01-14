@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+   background: linear-gradient(rgb(169, 169, 55), rgb(18, 18, 9));
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar{
+    width: 95%;
+    margin: auto;
+    padding: -7px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar label{
+    font-size: 40px;
+    color: rgb(194, 194, 93);
+}
+   
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(29, 43, 26);
+    font-size: 15px;
+}
+a{
+  text-decoration: none;
+}
+.IG img{
+    height: 250px;
+    width: 200px;
+    border-radius: 16px;
+    box-shadow: 8px 8px 15px;
+    cursor: pointer;
+    margin: 80px 120px;
+    margin-top: 100px;
+    padding: 4px;
+    transition: all 500ms ease-in-out;
+  }
+  .IG h4{
+    margin-left: 150px;
+    margin-top: -35px;
+    font-size: 20px;
+  }
+  .IG button{
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: -50px; color: rgb(30, 206, 206);
+    background-color: rgb(107, 217, 52);
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 16px;
+    
+  }
+  .IG1 img{
+    height: 250px;
+    width: 200px;
+    border-radius: 16px;
+    box-shadow: 8px 8px 15px;
+    cursor: pointer;
+    margin: 200px 400px;
+    margin-top: -320px;
+    padding: 4px;
+    transition: all 500ms ease-in-out;
+  }
+  .IG1 h4{
+    margin-left: 400px;
+    margin-top: -160px;
+    font-size: 20px;
+  }
+  .IG1 button{
+    margin-left: 500px;
+    font-size: 20px;
+    margin-top: -50px;
+    color: rgb(30, 206, 206);
+    background-color: rgb(107, 217, 52);
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 16px;
+  }
+  
+  .IG2 img{
+    height: 250px;
+    width: 200px;
+    border-radius: 16px;
+    box-shadow: 8px 8px 15px;
+    cursor: pointer;
+    margin: 200px 700px;
+    margin-top: -320px;
+    padding: 4px;
+    transition: all 500ms ease-in-out;
+  }
+  .IG2 h4{
+    margin-left: 750px;
+    margin-top: -155px;
+    font-size: 20px;
+  }
+  .IG2 button{
+    margin-left: 800px;
+    font-size: 20px;
+    margin-top: -50px;
+    color: rgb(30, 206, 206);
+    background-color: rgb(107, 217, 52);
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 16px;
+   
+   
+  }
+  .IG3 img{
+    height: 250px;
+    width: 200px;
+    border-radius: 16px;
+    box-shadow: 8px 8px 15px;
+    cursor: pointer;
+    margin: 100px 1000px;
+    margin-top: -800px;
+    padding: 4px;
+    transition: all 500ms ease-in-out;
+  }
+  .IG3 h4{
+    margin-left: 1050px;
+    margin-top: -50px;
+    font-size: 20px;
+  }
+  .IG3 button{
+    margin-left: 1130px;
+    font-size: 23px;
+    margin-top: -50px;
+    color: rgb(30, 206, 206);
+    background-color: rgb(107, 217, 52);
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 16px;
+    text-decoration: none;
+    
+    
+    
+  }
+  .IG1 a{
+    text-decoration: nones;
+  }

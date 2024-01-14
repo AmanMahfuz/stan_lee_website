@@ -1,0 +1,81 @@
+<script>
+    function validateform()
+    {
+   
+    var eml = document.myform.emil.value;
+    var pass = document.myform.pass.value;
+    var rpass = document.myform.rpass.value;
+    var atposition=eml.indexOf("@"); 
+    var dotposition=eml.lastIndexOf("."); 
+   
+    if(eml==""||eml==null)
+    {
+        alert("email must be filled out");
+        document.forms["myform"]["emil"].focus();
+        return false;
+    }
+    if(pass==""||pass==null)
+    {
+        alert("password must be filled out");
+        document.forms["myform"]["pass"].focus();
+        return false;
+    }
+    if(rpass==""||rpass==null)
+    {
+        alert("first name must be filled out");
+        document.forms["myform"]["rpass"].focus();
+        return false;
+    }
+    if(pass.length<6)
+    {
+        alert("password should be greater than 6")
+        document.forms["myform"]["pass"].focus();
+        return false;
+    }
+    if(pass!=rpass)
+    {
+        alert("password must be same");
+        document.forms["myform"]["rpass"].focus();
+        return false;
+    }
+   
+    if (atposition<1 || dotposition<atposition+2 || dotposition+2>=w.length){  
+    alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
+    return false;  
+  } 
+     }
+
+</script>
+<link rel="stylesheet" href="sample.css">
+<body>
+    <div id="wrap">
+        
+    </nav>
+    <div class="box">
+       
+       <form  class="form" name="myform" method="post" onsubmit="return validateform()" >          
+        
+            
+            <h1 class="label">Sign in</h1>
+             <div class="inputbox">Email </div>
+         <input type="text" name="emil" id="emailInput" >
+         
+         
+            <div class="inputbox">Password</div> 
+         <input type="password" name="pass"id="emailInput" >
+         
+         
+             <div class="inputbox">Confirm Password </div>
+         <input type="password" name="rpass"id="emailInput"  >
+   
+         <button formaction="fazal.html" type="submit">Sign in</button>
+         
+      </form>
+  </div>   
+       <div class="container2">
+         <a href="comic.html">
+             <button class="hf1 btn1"> BACK</button>
+           </a>
+       </div> 
+
+ </body>
